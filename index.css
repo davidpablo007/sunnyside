@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background: black;
+}
+.header{
+    background: black;
+    color: #fff;
+    font-family: poppins;
+}
+.header > h3{
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.rect{
+    background-image: url(/images/rect.png);
+    width: 414px;
+    height: 550px;
+    object-fit: cover;
+}
+.deco{
+    padding: 55px;
+    font-size: 26px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    width: 70%;
+    line-height: 35px;
+}
+.deco1{
+    color: rgb(253, 222, 175);
+}
+.deco2{
+    font-size: 18px;
+    color: #fff;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    line-height: 27px;
+}
+.deco3{
+    font-size: 18px;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    background: rgba(172, 150, 117, 1);
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #fff;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arrow > p{
+    padding-right: 6px;
+}
+
+.ourstory{
+    margin: 30px;
+}
+.h1{
+    background-image: url(/images/rect.png);
+    width: 350px;
+    height: 500px;
+}
+.back{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.back1{
+    font-size: 28px;
+    font-family: Geneva, Tahoma, sans-serif;
+       font-weight: 700;
+       padding: 10px;
+}
+.who{
+    font-size: 17px;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.lorem{
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lorem1{
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.read{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 80%;
+    margin-top: 10px;
+}
+.read1{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+.read > img{
+    object-fit: contain;
+    padding: 5px;
+}
+.wwa{
+    background: rgba(242, 242, 241, 0.9);
+    margin: 20px;
+}
+.creat{
+    color: rgba(172, 150, 117, 1);
+    width: 80%;
+    margin: 0 auto;
+    font-family: poppins;
+    font-size: 18px;
+}
+.design{
+    color: #fff;
+    font-size: 22px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.dolor{
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:  poppins;
+    margin-top: 25px;
+}
+
+.apt{
+    background-image: url(/images/Rectangle\ 7\ \(2\).png);
+    width: 319px;
+    height: 307px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
