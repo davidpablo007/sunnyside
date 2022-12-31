@@ -3,7 +3,9 @@
     margin: 0;
 }
 html{
-    background: black;
+    background: #181818
+    ;
+    width: 420px;
 }
 .header{
     background: black;
@@ -17,7 +19,7 @@ html{
 
 .rect{
     background-image: url(/images/rect.png);
-    width: 414px;
+    width: 480px;
     height: 550px;
     object-fit: cover;
 }
@@ -29,6 +31,7 @@ html{
     font-weight: 900;
     width: 70%;
     line-height: 35px;
+    text-align: center;
 }
 .deco1{
     color: rgb(253, 222, 175);
@@ -82,7 +85,6 @@ html{
 }
 .h1{
     background-image: url(/images/rect.png);
-    width: 350px;
     height: 500px;
 }
 .back{
@@ -101,23 +103,23 @@ html{
 }
 .who{
     font-size: 17px;
-    font-family: Geneva, Tahoma, sans-serif;
-    font-weight: 600;
+    font-family: verdana, Tahoma, sans-serif;
+    font-weight: 500;
 }
 
 .lorem{
-    font-size: 19px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    width: 80%;
+    font-weight: 500;
+     width: 87%;
     margin: 0 auto;
 }
 
 .lorem1{
-    font-size: 19px;
+    font-size:20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    width: 80%;
+    font-weight: 500;
+    width: 87%;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -125,8 +127,8 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 80%;
-    margin-top: 10px;
+    width: 90%;
+    margin-top: 20px;
 }
 .read1{
     font-size: 22px;
@@ -169,10 +171,327 @@ html{
     margin-top: 25px;
 }
 
+.apart{
+    padding: 10px;
+}
 .apt{
     background-image: url(/images/Rectangle\ 7\ \(2\).png);
     width: 319px;
-    height: 307px;
+    height: 310px;
     margin: 0 auto;
     margin-top: 35px;
+}
+.apt1{
+    padding: 20px;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    height: 80%;
+    
+    
+}
+.aptd{
+    font-size: 23px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    color: #fff;
+}
+.sit{
+    font-size: 18px;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+    color: #fff;
+}
+.view{
+    font-size: 18px;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+    width: 60%;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    background: rgba(172, 150, 117, 1);
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.sec{
+    background-image: url(/images/Rectangle\ 12\ \(4\).png);
+    width: 320px;
+    height: 306px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.ird{
+    background-image: url(/images/Rectangle\ 9.png);
+    width: 320px;
+    height: 306px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.thir{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: flex-end;
+    width: 87%;
+}
+.readm{
+    font-size: 16px;
+    color: rgba(172, 150, 117, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding-right: 6px;
+}
+.thir > img{
+    object-fit: contain;
+}
+
+.port{
+    background-image: url(/images/port.png);
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.comp{
+    color: #fff;
+    font-family: poppins;
+    font-size: 22px;
+    margin-top: 10px;}
+
+.decor{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.img1{
+    padding: 10px;
+}
+.p1{
+    font-family: poppins;
+    font-size: 17px;
+    color: #fff;
+}
+
+.create{
+    margin-top: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.create > h2{
+    color: rgba(172, 150, 117, 1);
+    
+}
+.create > h1{
+    color: #fff;
+    margin-top: 12px;
+}
+.lrm{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #fff;
+    font-family: poppins;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.single{
+    width: 60%;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.si{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  padding: 23px;
+
+}
+.sin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 29px;
+    padding: 15px;
+    text-align: center;
+}
+.style{
+    margin-top: 30px;
+    text-align: center;
+
+}
+.ss{
+width: 80%;
+margin: 0 auto;
+font-family: poppins;
+font-size: 20px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+padding: 6px;
+}
+
+.ssi{
+    width: 80%;
+margin: 0 auto;
+font-family: poppins;
+font-size: 20px;
+padding: 6px;
+}
+
+.sendr{
+    border: 2px solid rgba(172, 150, 117, 1);
+    border-radius: 4px;
+    width: 54%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 800;
+    padding: 18px;
+    background: rgba(172, 150, 117, 1);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.officed{
+        width: 60%;
+        background: rgba(172, 150, 117, 1);
+        margin: 0 auto;
+        margin-top: 25px;
+        padding: 20px;
+        color: #fff;
+    }
+
+    .sendr2{
+        border: 2px solid rgba(172, 150, 117, 1);
+        border-radius: 4px;
+        width: 54%;
+        margin: 0 auto;
+        margin-top: 50px;
+        color: rgba(172, 150, 117, 1);
+        font-weight: 800;
+        padding: 18px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: rgba(255, 255, 255, 1);
+    }
+    .style2{
+        margin-top: 30px;
+        text-align: center;
+    
+    }
+    .ss2{
+        width: 80%;
+        margin: 0 auto;
+        font-family: poppins;
+        font-size: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 6px;
+        }
+
+        .ssi2{
+            width: 80%;
+        margin: 0 auto;
+        font-family: poppins;
+        font-size: 20px;
+        padding: 6px;
+        }
+  
+    
+.col1{
+    margin-top: 40px;
+}
+       
+.jd{
+    display: flex;
+    justify-content: center;
+}
+
+.imgd{
+    border: 1px solid rgba(238, 238, 238, 1);
+    padding: 20px;
+}
+.hp{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hp > p{
+    color: rgba(172, 150, 117, 1);
+    margin: 5px;
+}
+.from{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(238, 238, 238, 1);
+    margin-top: 30px;
+}
+
+.select{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.sel{
+    border: 0.2px solid rgba(238, 238, 238, 1);
+}
+.sel > p{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding: 28px;
+    color: rgba(238, 238, 238, 1);
+    margin: 10px;
+}
+
+.latest{
+    margin-top: 65px;
+}
+.receive{
+    margin-left: 24px;
+}
+
+.receive > p
+{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.em{
+    border: 2px solid rgba(172, 150, 117, 1);
+    width: 85%;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.subs{
+    border: 1px solid rgba(172, 150, 117, 1);
+    width: 25%;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(172, 150, 117, 1);
 }
